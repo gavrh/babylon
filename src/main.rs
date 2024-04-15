@@ -4,8 +4,13 @@ fn main() {
     
     let mut args: Vec<String> = env::args().collect();
     args.remove(0);
-    let _args = args;
+    let args = args;
     
+    // view args (temp)
+    for arg in args {
+        println!("{}", arg);
+    }
+
     // tbc
 
 }
